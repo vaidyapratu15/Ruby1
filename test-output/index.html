@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="clickWithdrawButton">clickWithdrawButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="enterAmountForWithdraw">enterAmountForWithdraw</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="getWithdrawData">getWithdrawData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="loginToBackend">loginToBackend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="logoutFromBackend">logoutFromBackend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="searchUserName">searchUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="storeAvailableWithdrawData">storeAvailableWithdrawData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.play.backend.BonusFlowTC" class="method navigator-link" hash-for-method="verifySaveButtonVisibility">verifySaveButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.play.backend.BonusFlowTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickWithdrawButton">
+                  </a> <!-- clickWithdrawButton -->
+                  <span class="method-name">clickWithdrawButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAmountForWithdraw">
+                  </a> <!-- enterAmountForWithdraw -->
+                  <span class="method-name">enterAmountForWithdraw</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWithdrawData">
+                  </a> <!-- getWithdrawData -->
+                  <span class="method-name">getWithdrawData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToBackend">
+                  </a> <!-- loginToBackend -->
+                  <span class="method-name">loginToBackend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFromBackend">
+                  </a> <!-- logoutFromBackend -->
+                  <span class="method-name">logoutFromBackend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUserName">
+                  </a> <!-- searchUserName -->
+                  <span class="method-name">searchUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeAvailableWithdrawData">
+                  </a> <!-- storeAvailableWithdrawData -->
+                  <span class="method-name">storeAvailableWithdrawData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySaveButtonVisibility">
+                  </a> <!-- verifySaveButtonVisibility -->
+                  <span class="method-name">verifySaveButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
+            <span class="header-content">/private/var/folders/_l/cndz3rc16s75fpd9trs04rlh0000gp/T/testng-eclipse--1398117665/testng-customsuite.xml</span>
+=======
+            <span class="header-content">/private/var/folders/_l/cndz3rc16s75fpd9trs04rlh0000gp/T/testng-eclipse-1135719606/testng-customsuite.xml</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.play.backend.BonusFlowTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginToBackend')
+data.setCell(0, 2, 'com.play.backend.BonusFlowTC')
+<<<<<<< HEAD
+data.setCell(0, 3, 21850);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchUserName')
+data.setCell(1, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(1, 3, 8715);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'storeAvailableWithdrawData')
+data.setCell(2, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(2, 3, 6149);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'enterAmountForWithdraw')
+data.setCell(3, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(3, 3, 5376);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickWithdrawButton')
+data.setCell(4, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(4, 3, 4403);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logoutFromBackend')
+data.setCell(5, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(5, 3, 1303);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getWithdrawData')
+data.setCell(6, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(6, 3, 460);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySaveButtonVisibility')
+data.setCell(7, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(7, 3, 53);
+=======
+data.setCell(0, 3, 23757);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchUserName')
+data.setCell(1, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(1, 3, 8294);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'storeAvailableWithdrawData')
+data.setCell(2, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(2, 3, 6117);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'enterAmountForWithdraw')
+data.setCell(3, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(3, 3, 5339);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickWithdrawButton')
+data.setCell(4, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(4, 3, 4359);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logoutFromBackend')
+data.setCell(5, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(5, 3, 1154);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getWithdrawData')
+data.setCell(6, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(6, 3, 413);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySaveButtonVisibility')
+data.setCell(7, 2, 'com.play.backend.BonusFlowTC')
+data.setCell(7, 3, 47);
+>>>>>>> 6d327e0 (withdraw flow TC)
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+<<<<<<< HEAD
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+=======
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.play.backend.BonusFlowTC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+<<<<<<< HEAD
+                <span class="method-start">13926 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">pageObjects</span>
+                <span class="method-start">14139 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.loginToBackend()[pri:1, instance:com.play....)</span>
+                <span class="method-start">14182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginToBackend</span>
+                <span class="method-start">14187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=loginToBackend status=SUCCESS method=BonusFlowTC.loginToBackend()[pri:1, instance:c...)</span>
+                <span class="method-start">36046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchUserName</span>
+                <span class="method-start">36055 ms</span>
+=======
+                <span class="method-start">15304 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">pageObjects</span>
+                <span class="method-start">15577 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.loginToBackend()[pri:1, instance:com.play....)</span>
+                <span class="method-start">15634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginToBackend</span>
+                <span class="method-start">15639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=loginToBackend status=SUCCESS method=BonusFlowTC.loginToBackend()[pri:1, instance:c...)</span>
+                <span class="method-start">39409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.searchUserName()[pri:2, instance:com.play....)</span>
+                <span class="method-start">39416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchUserName</span>
+                <span class="method-start">39417 ms</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.searchUserName()[pri:2, instance:com.play....)</span>
+                <span class="method-start">36055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=searchUserName status=SUCCESS method=BonusFlowTC.searchUserName()[pri:2, instance:c...)</span>
+<<<<<<< HEAD
+                <span class="method-start">44784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.clickWithdrawButton()[pri:3, instance:com....)</span>
+                <span class="method-start">44787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickWithdrawButton</span>
+                <span class="method-start">44787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=clickWithdrawButton status=SUCCESS method=BonusFlowTC.clickWithdrawButton()[pri:3, ...)</span>
+                <span class="method-start">49194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.getWithdrawData()[pri:4, instance:com.play...)</span>
+                <span class="method-start">49195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getWithdrawData</span>
+                <span class="method-start">49196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=getWithdrawData status=SUCCESS method=BonusFlowTC.getWithdrawData()[pri:4, instance...)</span>
+                <span class="method-start">49658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.storeAvailableWithdrawData()[pri:5, instan...)</span>
+                <span class="method-start">49659 ms</span>
+=======
+                <span class="method-start">47724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.clickWithdrawButton()[pri:3, instance:com....)</span>
+                <span class="method-start">47726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickWithdrawButton</span>
+                <span class="method-start">47726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=clickWithdrawButton status=SUCCESS method=BonusFlowTC.clickWithdrawButton()[pri:3, ...)</span>
+                <span class="method-start">52088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.getWithdrawData()[pri:4, instance:com.play...)</span>
+                <span class="method-start">52090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getWithdrawData</span>
+                <span class="method-start">52091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.storeAvailableWithdrawData()[pri:5, instan...)</span>
+                <span class="method-start">52507 ms</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=getWithdrawData status=SUCCESS method=BonusFlowTC.getWithdrawData()[pri:4, instance...)</span>
+                <span class="method-start">52507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">storeAvailableWithdrawData</span>
+<<<<<<< HEAD
+                <span class="method-start">49660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=storeAvailableWithdrawData status=SUCCESS method=BonusFlowTC.storeAvailableWithdraw...)</span>
+                <span class="method-start">55814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterAmountForWithdraw</span>
+                <span class="method-start">55815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.enterAmountForWithdraw()[pri:6, instance:c...)</span>
+                <span class="method-start">55815 ms</span>
+=======
+                <span class="method-start">52508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=storeAvailableWithdrawData status=SUCCESS method=BonusFlowTC.storeAvailableWithdraw...)</span>
+                <span class="method-start">58636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.enterAmountForWithdraw()[pri:6, instance:c...)</span>
+                <span class="method-start">58638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterAmountForWithdraw</span>
+                <span class="method-start">58639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=enterAmountForWithdraw status=SUCCESS method=BonusFlowTC.enterAmountForWithdraw()[p...)</span>
+                <span class="method-start">63988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySaveButtonVisibility</span>
+                <span class="method-start">63990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.verifySaveButtonVisibility()[pri:7, instan...)</span>
+                <span class="method-start">63990 ms</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=enterAmountForWithdraw status=SUCCESS method=BonusFlowTC.enterAmountForWithdraw()[p...)</span>
+                <span class="method-start">61207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.verifySaveButtonVisibility()[pri:7, instan...)</span>
+                <span class="method-start">61211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySaveButtonVisibility</span>
+                <span class="method-start">61212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=verifySaveButtonVisibility status=SUCCESS method=BonusFlowTC.verifySaveButtonVisibi...)</span>
+<<<<<<< HEAD
+                <span class="method-start">61267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logoutFromBackend</span>
+                <span class="method-start">61268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.logoutFromBackend()[pri:8, instance:com.pl...)</span>
+                <span class="method-start">61268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=logoutFromBackend status=SUCCESS method=BonusFlowTC.logoutFromBackend()[pri:8, inst...)</span>
+                <span class="method-start">62573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">62579 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">setEmail</span>
+                <span class="method-start">68669 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68671 ms</span>
+=======
+                <span class="method-start">64039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logoutFromBackend</span>
+                <span class="method-start">64039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentTest([TestResult name={null} status=CREATED method=BonusFlowTC.logoutFromBackend()[pri:8, instance:com.pl...)</span>
+                <span class="method-start">64039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">captureSceenshot([TestResult name=logoutFromBackend status=SUCCESS method=BonusFlowTC.logoutFromBackend()[pri:8, inst...)</span>
+                <span class="method-start">65195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">65199 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">setEmail</span>
+                <span class="method-start">71454 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71458 ms</span>
+>>>>>>> 6d327e0 (withdraw flow TC)
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.playexch.sportsbook.TennisBackUnmatchedTC">
+        <methods>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="captureSceenshot"/>
+          <include name="createExtentTest"/>
+          <include name="pageObjects"/>
+          <include name="getProfileInfoAfterCancelUnmatched"/>
+          <include name="beforeTest"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyNetExposure"/>
+          <include name="setEmail"/>
+          <include name="backBetPlace"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.TennisBackUnmatchedTC -->
+      <class name="com.playexch.sportsbook.SoccerLayMatchedTC">
+        <methods>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="verifyNetExposure"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="createExtentTest"/>
+          <include name="verifyBetPlacedMatched"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="pageObjects"/>
+          <include name="layBetPlace"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="beforeTest"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="setEmail"/>
+          <include name="captureSceenshot"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.SoccerLayMatchedTC -->
+      <class name="com.playexch.sportsbook.SoccerBackUnmatchedTC">
+        <methods>
+          <include name="verifyMatchesAvailable"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="createExtentTest"/>
+          <include name="pageObjects"/>
+          <include name="captureSceenshot"/>
+          <include name="verifyNetExposure"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="backBetPlace"/>
+          <include name="beforeTest"/>
+          <include name="initializeBrowser"/>
+          <include name="getProfileInfoAfterCancelUnmatched"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="setEmail"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.SoccerBackUnmatchedTC -->
+      <class name="com.playexch.sportsbook.TennisLayUnmatchedTC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="captureSceenshot"/>
+          <include name="layBetPlace"/>
+          <include name="verifyNetExposure"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="createExtentTest"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="getProfileInfoAfterCancelUnmatched"/>
+          <include name="pageObjects"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="beforeTest"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="setEmail"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.TennisLayUnmatchedTC -->
+      <class name="com.playexch.sportsbook.TennisLayMatchedTC">
+        <methods>
+          <include name="captureSceenshot"/>
+          <include name="verifyNetExposure"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="createExtentTest"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="pageObjects"/>
+          <include name="verifyBetPlacedMatched"/>
+          <include name="layBetPlace"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="beforeTest"/>
+          <include name="initializeBrowser"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="setEmail"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.TennisLayMatchedTC -->
+      <class name="com.playexch.sportsbook.SoccerLayUnmatchedTC">
+        <methods>
+          <include name="getProfileInfoAfterCancelUnmatched"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="layBetPlace"/>
+          <include name="createExtentTest"/>
+          <include name="verifyNetExposure"/>
+          <include name="pageObjects"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="captureSceenshot"/>
+          <include name="beforeTest"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="initializeBrowser"/>
+          <include name="setEmail"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.SoccerLayUnmatchedTC -->
+      <class name="com.playexch.testclass.LoginTestCases">
+        <methods>
+          <include name="validUsername_InavalidPassword"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="captureSceenshot"/>
+          <include name="invalidUsername_ValidPassword"/>
+          <include name="initializeBrowser"/>
+          <include name="createExtentTest"/>
+          <include name="invalidUsername_InavalidPassword"/>
+          <include name="pageObjects"/>
+          <include name="setEmail"/>
+        </methods>
+      </class> <!-- com.playexch.testclass.LoginTestCases -->
+      <class name="com.playexch.sportsbook.TennisBackMatchedTC">
+        <methods>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="captureSceenshot"/>
+          <include name="createExtentTest"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="pageObjects"/>
+          <include name="verifyBetPlacedMatched"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="beforeTest"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyNetExposure"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="setEmail"/>
+          <include name="backBetPlace"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.TennisBackMatchedTC -->
+      <class name="com.playexch.sportsbook.SoccerBackMatchedTC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="verifyMatchesAvailable"/>
+          <include name="createExtentTest"/>
+          <include name="verifyBetPlacedUnmatched"/>
+          <include name="pageObjects"/>
+          <include name="backBetPlace"/>
+          <include name="beforeTest"/>
+          <include name="captureSceenshot"/>
+          <include name="VerifyAllBetPlaceInfo"/>
+          <include name="verifyNetExposure"/>
+          <include name="initializeBrowser"/>
+          <include name="getProfileInfoAfterPlaceBet"/>
+          <include name="setEmail"/>
+          <include name="verifyBetPlacedMatched"/>
+        </methods>
+      </class> <!-- com.playexch.sportsbook.SoccerBackMatchedTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
